@@ -9,5 +9,3 @@ function bin_to_dec(binary) {
         return acc + value * Math.pow(2, index);
     }, 0);
 }
-
-console.log(bin_to_dec('111'))
